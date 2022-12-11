@@ -7,7 +7,7 @@ for(let i=1; i<=num; i++){
    let count=0;
    for(let j=1; j<=i; j++)
   {
-     if(num%i==0)
+     if(i%j==0)
        {
          count++;
        }
